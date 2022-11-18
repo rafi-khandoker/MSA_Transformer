@@ -1,20 +1,10 @@
 # MSA Transformer Generator
-Generates de novo proteins from MSA Transformer, given an input MSA.
-
-todo:
-Inputs and requirements
+Given an MSA as input, MSA Transformer generates de novo proteins.
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
-To cite this work and see comparisons to Mi3 (Potts Model) and VAEs, refer to this work:
-<pre> 
-@article{mcgee2020generative,
-  title={Generative Capacity of Probabilistic Protein Sequence Models},
-  author={McGee, Francisco and Novinger, Quentin and Levy, Ronald M and Carnevale, Vincenzo and Haldane, Allan},
-  journal={arXiv preprint arXiv:2012.02296},
-  year={2020}
-}
-</pre>
+
 
 This code is based on https://github.com/facebookresearch/esm and uses the pretrained MSA Transformer model, which is explained in this work:
 <pre> 
@@ -25,5 +15,21 @@ This code is based on https://github.com/facebookresearch/esm and uses the pretr
   doi={10.1101/2021.02.12.430858},
   url={https://www.biorxiv.org/content/10.1101/2021.02.12.430858v1},
   journal={bioRxiv}
+}
+</pre>
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+To cite this work and see comparisons to Mi3 (Potts Model) and VAEs, refer to this work:
+<pre> 
+@article{mcgee2020generative,
+  title={Generative Capacity of Probabilistic Protein Sequence Models},
+  author={McGee, Francisco and Novinger, Quentin and Levy, Ronald M and Carnevale, Vincenzo and Haldane, Allan},
+  journal={arXiv preprint arXiv:2012.02296},
+  year={2020}
 }
 </pre>
